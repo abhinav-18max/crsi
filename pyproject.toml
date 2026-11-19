@@ -1,0 +1,9 @@
+[project]
+name = "crsi-mini"
+version = "0.1.0"
+description = "A miniature of Continual Recursive Self-Improvement with Self-Improvement Memory (coding domain)"
+requires-python = ">=3.11"
+dependencies = ["jupyterlab", "ipykernel", "pandas", "matplotlib", "nbconvert", "nbformat"]
+
+[tool.uv]
+package = false

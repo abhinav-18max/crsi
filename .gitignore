@@ -1,0 +1,12 @@
+# local environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# cached model replies and evaluations (large, regenerated on demand)
+cache/
+
+# run outputs; remove this line if you want to commit your results
+runs/
